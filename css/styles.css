@@ -1,0 +1,84 @@
+ul, li {
+  list-style: none;
+}
+
+.dynamic_nav, .logo, .customer_nav_item {
+  display: flex;
+}
+
+.logo, .logo_text {
+  font-size: 30px;
+  margin: auto 0;
+  font-family: 'Climate Crisis', cursive;
+}
+
+
+.customer_nav_item {
+  font-size: 10px;
+  letter-spacing: 1px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 100;
+}
+
+.customer_nav_item, ul {
+  display: flex;
+  padding-left: 24px ;
+
+}
+
+#profile, #like, #bag, #log {
+  width: 18x;
+  height: 18px;
+  padding-right: 4px;
+  margin: auto 0;
+}
+
+.f_nav, .s_nav, .t_nav {
+  display: flex;
+}
+
+.f_nav {
+  font-size: 30px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 900;
+
+}
+
+.f_nav, ul, li {
+  padding-right: 30px;
+}
+
+.s_nav {
+  font-size: 14px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 700;
+}
+
+.st_nav {
+  display: flex;
+}
+
+.t_nav {
+  font-size: 14px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.t_nav, .t_nav_content {
+  flex-direction: column;
+}
+
+#t_nav_item_lookbook_txt {
+  padding-left: 20px;
+}
+
+#t_nav_item_event_txt {
+  padding-left: 20px;
+  border-left: 1px solid #555;
+}
+
+#t_nav_icon_search_img {
+  width: 50px;
+  height: 50px;
+}
